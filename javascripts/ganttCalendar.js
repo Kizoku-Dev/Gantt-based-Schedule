@@ -212,7 +212,7 @@ $.extend(Event.prototype, {
 			width = containerObject.cellWidth * (newEndDay - newStartDay) - 3;
 		}
 
-		$("#"+containerId).find("#events_r_"+this.ressourceId).append('<div id="'+this.eventId+'" class="event" sdate="'+this.startDate+'" edate="'+this.endDate+'" style="left: '+margin+'px;width:'+width+'px;background-color:'+this.color+';"><a href="'+window.location.protocol+'//'+window.location.host+'/planning_astreintes?type=del&id='+this.eventId+'"><img src="../img/del_icon.png" height="12px" width="12px" /></a><b style="color:white">'+this.label+'</div>');
+		$("#"+containerId).find("#events_r_"+this.ressourceId).append('<div id="'+this.eventId+'" class="event" sdate="'+this.startDate+'" edate="'+this.endDate+'" style="left: '+margin+'px;width:'+width+'px;background-color:'+this.color+';"><b style="color:white">'+this.label+'</div>');
 		this.jObject = $("#"+this.eventId);
 		$("#"+containerId).find("#"+this.eventId).draggable({ axis: "x", containment: "parent", opacity: 0.5, snap: true });
 		$("#"+containerId).find("#events_r_"+this.ressourceId).droppable({
