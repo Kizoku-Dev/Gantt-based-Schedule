@@ -4,8 +4,8 @@ A schedule displayed as a gantt chart.
 ## Installation
 - Include JQuery & JQuery UI scripts
 ```html
-<script src="js/jquery/jquery-1.4.1.min.js" type="text/javascript"></script>
-<script src="js/jquery/jquery-ui.min.js" type="text/javascript"></script>
+<script src="//code.jquery.com/jquery-2.1.3.js" type="text/javascript"></script>
+<script src='//code.jquery.com/ui/1.11.3/jquery-ui.js'></script>
 ```
 - Include ganttCalendar.js & ganttCalendar.css
 ```html
