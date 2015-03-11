@@ -533,15 +533,15 @@
 }
 
 
-/* override event CSS (comment background attributes if you want to use custom color out of the css) */
+/* override event CSS */
 .event{
-	background: #b3d5ee; /* Old browsers */
-	background: -moz-linear-gradient(top,  #b3d5ee 0%, #86bce3 5%, #69abdd 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b3d5ee), color-stop(5%,#86bce3), color-stop(100%,#69abdd)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #b3d5ee 0%,#86bce3 5%,#69abdd 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #b3d5ee 0%,#86bce3 5%,#69abdd 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #b3d5ee 0%,#86bce3 5%,#69abdd 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #b3d5ee 0%,#86bce3 5%,#69abdd 100%); /* W3C */
+/*	background: #b3d5ee; /* Old browsers */
+/*	background: -moz-linear-gradient(top,  #b3d5ee 0%, #86bce3 5%, #69abdd 100%); /* FF3.6+ */
+/*	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b3d5ee), color-stop(5%,#86bce3), color-stop(100%,#69abdd)); /* Chrome,Safari4+ */
+/*	background: -webkit-linear-gradient(top,  #b3d5ee 0%,#86bce3 5%,#69abdd 100%); /* Chrome10+,Safari5.1+ */
+/*	background: -o-linear-gradient(top,  #b3d5ee 0%,#86bce3 5%,#69abdd 100%); /* Opera 11.10+ */
+/*	background: -ms-linear-gradient(top,  #b3d5ee 0%,#86bce3 5%,#69abdd 100%); /* IE10+ */
+/*	background: linear-gradient(to bottom,  #b3d5ee 0%,#86bce3 5%,#69abdd 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3d5ee', endColorstr='#69abdd',GradientType=0 ); /* IE6-9 */
 	
 	
