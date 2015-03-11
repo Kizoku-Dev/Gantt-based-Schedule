@@ -1,6 +1,9 @@
 # Gantt-based-Schedule
 A schedule displayed as a gantt chart.
 
+## Demo
+The demo is here : http://kizoku-dev.github.io/Gantt-based-Schedule/
+
 ## Installation
 - Include JQuery & JQuery UI scripts
 ```html
