@@ -1,0 +1,1 @@
+{"mixinTypes":["contribution"],"runners":{"configs":{}},"builders":{"configs":{}},"description":"A schedule displayed as a gantt chart.","type":"blank","attributes":{"contribute_branch":["master"],"contribute_mode":["contribute"]}}
