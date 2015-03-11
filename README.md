@@ -23,7 +23,7 @@ A schedule displayed as a gantt chart.
 				var event2 = new Event(3, "event_2", 3, 8, "Work", "03/03/2015", "08/03/2015", "#754125");
 				var event3 = new Event(4, "event_3", 10, 17, "Free Days", "10/04/2015", "17/04/2015", "#659542");
 				
-				var timeline = new TimeLineMonth('myGanttCalendar', ".$month.", ".$year.",
+				var timeline = new TimeLineMonth('GCalendar', 03, 2015,
 								{groups: 
 								[  {name: 'Group1',
 									id: 1,
@@ -56,8 +56,9 @@ A schedule displayed as a gantt chart.
 				timeline.cellWidth = 40;
 				timeline.drawElements();
 				timeline.updateMonthCallback();
+			});
 </script>
 
-<div id='myGanttCalendar'>
+<div id='GCalendar'>
 </div>
 ```
