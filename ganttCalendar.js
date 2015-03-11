@@ -7,7 +7,6 @@ TimeLineMonth = function(container, month, year, ressources, updateMonthCallback
 };
 
 $.extend(TimeLineMonth.prototype, {
-	// object variables
 	TimeLineClass: 'MONTH',
 	container:'',
 	month: '',
