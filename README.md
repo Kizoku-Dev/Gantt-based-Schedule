@@ -19,9 +19,9 @@ A schedule displayed as a gantt chart.
 			$(function() {
 				// Definition : Event(ressourceId, eventId, startDay, endDay, label, startDate, endDate, color)
 				
-				var event1 = new Event(1, "event_1", 10, 17, "Free Days", "10/03/2015", "17/03/2015", #453896);
-				var event2 = new Event(3, "event_2", 3, 8, "Work", "03/03/2015", "08/03/2015", #754125);
-				var event3 = new Event(4, "event_3", 10, 17, "Free Days", "10/04/2015", "17/04/2015", #659542);
+				var event1 = new Event(1, "event_1", 10, 17, "Free Days", "10/03/2015", "17/03/2015", "#453896");
+				var event2 = new Event(3, "event_2", 3, 8, "Work", "03/03/2015", "08/03/2015", "#754125");
+				var event3 = new Event(4, "event_3", 10, 17, "Free Days", "10/04/2015", "17/04/2015", "#659542");
 				
 				var timeline = new TimeLineMonth('myGanttCalendar', ".$month.", ".$year.",
 								{groups: 
