@@ -1,6 +1,37 @@
 /*
 ** ganttCalendar.js
+** Modified and improved by Jean-Noël DURAND
 */
+
+/*
+ * Gantt Calendar by Julien CORON - 2012
+ * Copyright 2012 Julien CORON
+ * 
+ * Licence :
+   Ce programme est un logiciel libre ; vous pouvez le redistribuer ou le 
+   modifier suivant les termes de la GNU General Public License telle que 
+   publiÃ©e par la Free Software Foundation ; soit la version 3 de la licence, 
+   soit (Ã  votre grÃ©) toute version ultÃ©rieure.
+
+   Ce programme est distribuÃ© dans l'espoir qu'il sera utile, mais SANS AUCUNE 
+   GARANTIE ; pas mÃªme la garantie implicite de COMMERCIABILISABILITÃ‰ ni 
+   d'ADÃ‰QUATION Ã  UN OBJECTIF PARTICULIER. Consultez la GNU General Public 
+   License pour plus de dÃ©tails.
+ * 
+ * 
+   This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 TimeLineMonth = function(container, month, year, ressources, updateMonthCallback) {
 	return this.init(container, month, year, ressources, updateMonthCallback);
