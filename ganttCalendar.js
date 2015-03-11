@@ -179,7 +179,6 @@ Event = function(ressourceId, eventId, startDay, endDay, label, startDate, endDa
 };
 
 $.extend(Event.prototype, {
-	// object variables
 	ressourceId: '',
 	eventId: '',
 	startDay: '',
